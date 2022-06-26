@@ -1,0 +1,28 @@
+:root {
+    background-color: #f0c9ea;
+}
+
+.container {
+    width: 80%;
+    height: 60vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5%;
+
+    border: 1px solid blue
+}
+
+.fields {
+    margin: 5% 10%;
+}
+
+.pink-font {
+    color: #e8258e;
+}
+
+#field-title {
+    font: 18px;
+    font-weight: bold;
+    color: rgb(26, 26, 26)
+}
