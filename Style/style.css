@@ -4,11 +4,11 @@
 
 .container {
     width: 80%;
-    height: 60vh;
+    height: 70vh;
     background-color: white;
     margin: auto;
     margin-top: 5%;
-    border-radius: 5%;
+    border-radius: 20px;
 
     border: 1px solid blue
 }
@@ -24,5 +24,37 @@
 #field-title {
     font: 18px;
     font-weight: bold;
-    color: rgb(26, 26, 26)
+    color: rgb(26, 26, 26);
+    margin-bottom: 5%;
 }
+
+.fields-textboxs {
+   
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields-textboxs > input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-bottom: 5%;
+}
+
+.fields-remember {
+    margin-bottom: 20px;
+}
+
+#btn-login {
+    width: 100%;
+    border: none;
+    background-color: #e8258e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
